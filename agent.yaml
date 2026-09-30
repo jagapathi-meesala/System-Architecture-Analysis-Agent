@@ -9,7 +9,7 @@ skills:
   - architecture-reporting
 
 tools:
-  - tools/analyze_architecture.py
-  - tools/detect_architecture_risks.py
-  - tools/generate_architecture_report.py
-  - tools/validate_architecture_input.py
+  - analyze-architecture
+  - detect-architecture-risks
+  - generate-architecture-report
+  - validate-architecture-input
