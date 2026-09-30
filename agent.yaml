@@ -2,10 +2,12 @@ spec_version: "0.1.0"
 name: system-architecture-analysis-agent
 version: 1.0.0
 description: Analyze software repositories and produce structured system architecture findings, risks, and recommendations.
+
 skills:
-  - skills/architecture-analysis.md
-  - skills/architecture-risk-assessment.md
-  - skills/architecture-reporting.md
+  - architecture-analysis
+  - architecture-risk-assessment
+  - architecture-reporting
+
 tools:
   - tools/analyze_architecture.py
   - tools/detect_architecture_risks.py
