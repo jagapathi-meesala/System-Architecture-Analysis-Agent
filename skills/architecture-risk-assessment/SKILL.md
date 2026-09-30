@@ -1,13 +1,35 @@
-# Architecture Risk Assessment Skill
+---
+name: architecture-risk-assessment
+description: Identify potential software architecture risks from repository analysis findings and provide evidence-based risk observations.
+---
+
+# Architecture Risk Assessment
+
 ## Purpose
-Identify deterministic architecture review signals from an architecture profile.
+
+Identify potential architecture risks using the results of repository architecture analysis.
+
 ## Inputs
-A validated architecture analysis object.
-## Processing
-Apply explicit rules for empty source surfaces, large repositories, and high language diversity.
+
+- Architecture analysis results
+- Repository evidence
+
+## Process
+
+1. Inspect architecture analysis results.
+2. Identify observable architecture risk indicators.
+3. Assign a severity based on the defined deterministic rules.
+4. Provide evidence for each finding.
+5. Clearly state limitations and avoid unsupported conclusions.
+
 ## Outputs
-Risk identifiers, severities, evidence, and methodology note.
+
+- Risk count
+- Risk findings
+- Severity
+- Evidence
+- Detection method
+
 ## Limitations
-Heuristic findings require engineering review and do not prove defects.
-## Expected Behavior
-Never invent evidence or claim certainty beyond the supplied analysis.
+
+Risk detection is based on deterministic repository evidence and does not guarantee that a finding represents an actual production failure.
