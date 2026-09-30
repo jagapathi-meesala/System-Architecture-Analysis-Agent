@@ -1,0 +1,10 @@
+name: validate-architecture-input
+description: Validate that a repository analysis request points to a valid directory.
+input_schema:
+  type: object
+  properties:
+    path:
+      type: string
+      description: Path to the repository to validate.
+  required:
+    - path

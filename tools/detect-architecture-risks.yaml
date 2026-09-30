@@ -1,0 +1,9 @@
+name: detect-architecture-risks
+description: Detect architecture risks from a repository architecture analysis.
+input_schema:
+  type: object
+  properties:
+    analysis:
+      type: object
+  required:
+    - analysis

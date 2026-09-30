@@ -1,0 +1,14 @@
+name: analyze-architecture
+description: Analyze a software repository and produce a structured architecture profile.
+input_schema:
+  type: object
+  properties:
+    path:
+      type: string
+      description: Path to the repository to analyze.
+    max_files:
+      type: integer
+    max_file_bytes:
+      type: integer
+  required:
+    - path
